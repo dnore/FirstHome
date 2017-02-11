@@ -1,0 +1,7 @@
+markdown: kramdown
+baseurl: /final-test/
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
