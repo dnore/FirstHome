@@ -97,10 +97,15 @@
 
 h2
   font-family: 'Unicorn'
+  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px)
+    font-size: 15px
 
 .newish
   background: white
   padding: 100px
+  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px)
+    background: white
+    padding: 50px
 
 .post1, .post2, .post3, .post4, .post5, .post6, .post7, .post8
   border: 3px solid #e1e1e1
@@ -109,3 +114,9 @@ h2
   margin-bottom: 50px
   font-size: 15px
   transform: translate(-100px, 20px)
+  @media only screen and (max-width: 480px), only screen and (max-device-width: 480px)
+    border: 1px solid #e1e1e1
+    padding: 10px 10px 10px 10px
+    background: white
+    margin-bottom: 25px
+    font-size: 7px

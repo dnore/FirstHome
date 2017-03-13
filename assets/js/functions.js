@@ -7,7 +7,7 @@ $( document ).ready(function() {
 
   	if(wScroll > $('.newish').offset().top - $(window).height()) {
 
-  		var offset = Math.min(0, wScroll - $('.newish').offset().top + $(window).height() - 900);
+  		var offset = Math.min(0, wScroll - $('.newish').offset().top + $(window).height() - 600);
 
   			$('.post1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.5) +'px)'});
   			$('.post2').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.5) +'px)'});
@@ -18,8 +18,6 @@ $( document ).ready(function() {
   			$('.post7').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.5) +'px)'});
   			$('.post8').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.5) +'px)'});
   	}
-
-
 
   });
 
